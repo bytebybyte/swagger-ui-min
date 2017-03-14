@@ -1,0 +1,13 @@
+{
+  "name": "swagger-ui-min",
+  "description": "Single file swagger-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "curl https://raw.githubusercontent.com/csabapalfi/swagger-ui/cdn/dist/index.html > index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csabapalfi/swagger-ui-min.git"
+  },
+  "license": "MIT"
+}
