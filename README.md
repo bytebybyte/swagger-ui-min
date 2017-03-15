@@ -11,8 +11,8 @@ You can simply serve up `index.html` as a static file then point your users at `
 ## how?
 
 * I forked swagger-ui and [made all changes here](https://github.com/csabapalfi/swagger-ui/blob/cdn/dist/index.html).
-* This module grabs the new local-dependency free `dist/index.html`
-* which is then published to npm
+* This module grabs the new local-dependency free [`dist/index.html`](/dist/index.html)
+* which is then [published to npm](https://www.npmjs.com/package/swagger-ui-min)
 
 ## why?
 
@@ -23,7 +23,7 @@ You can simply serve up `index.html` as a static file then point your users at `
 
 ### no OAuth
 
-This is the only major feature missing. The swagger-ui JS bundle might have it but I didn't have time to check so commented out the `initOAuth` call. See [index.html#L102](https://github.com/csabapalfi/swagger-ui/blob/cdn/dist/index.html#L102)
+This is the only major feature missing. The swagger-ui JS bundle might have it but I didn't have time to check so commented out the `initOAuth` call. See [index.html#L102](dist/index.html#L102)
 
 ### minor missing features
 
