@@ -3,8 +3,8 @@
   "description": "Single file swagger-ui",
   "version": "1.0.0",
   "scripts": {
-    "build": "curl https://raw.githubusercontent.com/csabapalfi/swagger-ui/cdn/dist/index.html > index.html",
-    "deploy": "gh-pages -d . -s index.html"
+    "build": "mkdir dist && curl https://raw.githubusercontent.com/csabapalfi/swagger-ui/cdn/dist/index.html > dist/index.html",
+    "deploy": "gh-pages -d dist -s index.html"
   },
   "files": [
     "index.html"
