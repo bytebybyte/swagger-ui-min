@@ -1,7 +1,7 @@
 {
   "name": "swagger-ui-min",
   "description": "Single file swagger-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "build": "mkdir dist && curl https://raw.githubusercontent.com/csabapalfi/swagger-ui/cdn/dist/index.html > dist/index.html"
   },
