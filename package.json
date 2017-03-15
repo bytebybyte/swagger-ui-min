@@ -3,11 +3,18 @@
   "description": "Single file swagger-ui",
   "version": "1.0.0",
   "scripts": {
-    "build": "curl https://raw.githubusercontent.com/csabapalfi/swagger-ui/cdn/dist/index.html > index.html"
+    "build": "curl https://raw.githubusercontent.com/csabapalfi/swagger-ui/cdn/dist/index.html > index.html",
+    "deploy": "gh-pages -d . -s index.html"
   },
+  "files": [
+    "index.html"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csabapalfi/swagger-ui-min.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
 }
